@@ -563,3 +563,6 @@ footer small {
     }
 
 }
+.hero a{
+    display: none !important;
+}
