@@ -95,3 +95,14 @@ sections.forEach((section) => {
     observer.observe(section);
 
 });
+function checkPassword() {
+    const correctPassword = "Mohammad";
+    const enteredPassword = document.getElementById("passwordInput").value;
+    const errorMessage = document.getElementById("passwordError");
+
+    if (enteredPassword === correctPassword) {
+        document.getElementById("passwordScreen").style.display = "none";
+    } else {
+        errorMessage.textContent = "Incorrect password. Please try again.";
+    }
+}
