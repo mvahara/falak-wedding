@@ -2,7 +2,7 @@
 // WEDDING COUNTDOWN
 // ========================================
 
-const weddingDate = new Date("December 2, 2026 00:00:00").getTime();
+const weddingDate = new Date("January 30, 2027 00:00:00").getTime();
 
 function updateCountdown() {
 
